@@ -1,6 +1,6 @@
 API gemaakt met Python Flask
 
-Voor het starten, open eerst een CLI in de "python" map en run eerst: "pip install -r requirements.txt" 
+Voor het starten, open een CLI in de "python" map en run eerst: "pip install -r requirements.txt" 
 
 De API start met de command: 'python .\app.py'
 
