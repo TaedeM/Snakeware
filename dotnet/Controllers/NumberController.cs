@@ -31,8 +31,8 @@ namespace PrimeCheckerAPI.Controllers
             var result = new Dictionary<string, object>
             {
                 { "input_number", number },
-                { "is_prime", IsPrime(number) },
-                { "is_fibonacci", IsFibonacci(number) }
+                { "prime", IsPrime(number) },
+                { "fibonacci", IsFibonacci(number) }
             };
 
     	    return Ok(result);
